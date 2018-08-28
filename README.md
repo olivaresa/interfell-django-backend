@@ -32,7 +32,7 @@ cd backend/
 ./manage.py runserver
 ```
 
-### EndPoints
+### API Rest
 
 **JWT Auth**
 > Type: POST | Url: localhost:8000/api-token-auth/ | Return Type: Json | Return Data:  {token: xxx} 
