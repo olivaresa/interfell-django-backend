@@ -28,9 +28,9 @@ cd backend/
 
 ### EndPoints
 
-*Auth*
-Type: POST | Url: localhost:8000/api-token-auth/ | Return Type: Json | Return Data:  {token: xxx} 
+**Auth**
+> Type: POST | Url: localhost:8000/api-token-auth/ | Return Type: Json | Return Data:  {token: xxx} 
 
-*Get User List*
-Type: GET | Header required: {Authorization: JWT <token>}| Url: http://localhost:8000/users/ | Return Type: Json | Return Data:  [{ "first_name": "xxx", "last_name": "xxx" } ]
+**Get User List**
+> Type: GET | Header required: {Authorization: JWT <token>}| Url: http://localhost:8000/users/ | Return Type: Json | Return Data:  [{ "first_name": "xxx", "last_name": "xxx" } ]
 
