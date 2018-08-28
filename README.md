@@ -34,7 +34,7 @@ cd backend/
 
 ### EndPoints
 
-**Auth**
+**JWT Auth**
 > Type: POST | Url: localhost:8000/api-token-auth/ | Return Type: Json | Return Data:  {token: xxx} 
 
 **Post User**
