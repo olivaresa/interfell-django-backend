@@ -36,4 +36,5 @@ class User(models.Model):
     city = models.ForeignKey(Cities, on_delete=models.CASCADE)
     country = models.ForeignKey(Countries, on_delete=models.CASCADE)
 
-    
+    def __str__(self):
+        return '{} {}'.format(self.first_name, self.last_name)    
