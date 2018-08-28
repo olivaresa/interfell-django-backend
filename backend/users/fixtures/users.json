@@ -1,0 +1,1 @@
+[{"model": "users.cities", "pk": 1, "fields": {"name": "Merida"}}, {"model": "users.countries", "pk": 1, "fields": {"name": "Venezuela"}}, {"model": "users.academiclevels", "pk": 1, "fields": {"name": "Engineer"}}]
