@@ -2,18 +2,23 @@
 
 ### Create Virtualenv
 
+```
 virtualenv -p python3 env
 
 cd env
 
 source env/bin/activate
+```
 
 ### Install requirements
 
+```
 pip install -r requirements.txt
+```
 
 ### Configure and Run 
 
+```
 cd backend/
 
 ./manage.py makemigrations
@@ -25,6 +30,7 @@ cd backend/
 ./manage.py loaddata users.json
 
 ./manage.py runserver
+```
 
 ### EndPoints
 
