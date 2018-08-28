@@ -37,6 +37,9 @@ cd backend/
 **Auth**
 > Type: POST | Url: localhost:8000/api-token-auth/ | Return Type: Json | Return Data:  {token: xxx} 
 
+** Post User **
+> Type: POST | Header required: {Authorization: JWT < token >}| Url: http://localhost:8000/users/ | Data : { "first_name": "xxx", "last_name": "xxx", "academic_level": 1, "address": "xxx", "city": 1, "country": 1 }| Return Type: Json | Return Data:  [{ "first_name": "xxx", "last_name": "xxx", "academic_level": 1, "address": "xxx", "city": 1, "country": 1 } ]
+
 **Get User List**
 > Type: GET | Header required: {Authorization: JWT < token >}| Url: http://localhost:8000/users/ | Return Type: Json | Return Data:  [{ "first_name": "xxx", "last_name": "xxx" } ]
 
